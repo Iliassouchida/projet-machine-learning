@@ -1,0 +1,23 @@
+# Environnement virtuel (très important)
+venv/
+env/
+.env
+
+# Fichiers de données volumineux
+*.csv
+*.xlsx
+*.parquet
+
+# Modèles entraînés
+*.pkl
+*.h5
+*.joblib
+
+# Fichiers système et checkpoints
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+Train/train_terms.tsv
+Train/train_sequences.fasta
+Test\ (Targets)/testsuperset.fasta
